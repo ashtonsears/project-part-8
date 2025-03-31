@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/my-project-8/static/css/main.66cfb783.css",
-    "main.js": "/my-project-8/static/js/main.cd67f2db.js",
-    "static/media/programmer_team_img.jpg": "/my-project-8/static/media/programmer_team_img.5de22e826ae0185852e7.jpg",
-    "static/media/idiopathic_hypersomnia.jpeg": "/my-project-8/static/media/idiopathic_hypersomnia.9a4d176681cf46badeb9.jpeg",
-    "static/media/doctor_team_img.jpeg": "/my-project-8/static/media/doctor_team_img.20283584aaf790a601fa.jpeg",
-    "static/media/narcolepsy_disorder_img.jpg": "/my-project-8/static/media/narcolepsy_disorder_img.a1f1fbec0090f9a5a8e0.jpg",
-    "static/media/shift_work_disorder_img.jpg": "/my-project-8/static/media/shift_work_disorder_img.955d6f8ed054602ecdd3.jpg",
-    "static/media/delayed_sleep_disorder_img.jpg": "/my-project-8/static/media/delayed_sleep_disorder_img.840a1642cc9c3de0759c.jpg",
-    "static/media/nurse_team_img.jpg": "/my-project-8/static/media/nurse_team_img.26a29a82b6af1eaf0b26.jpg",
-    "static/media/sleep_apnea_disorder_img.jpg": "/my-project-8/static/media/sleep_apnea_disorder_img.b9a48ec1d733162913a8.jpg",
-    "static/media/our_mission_img.jpg": "/my-project-8/static/media/our_mission_img.592d35e66c84488869bd.jpg",
-    "static/media/insomnia_disorder_img.jpg": "/my-project-8/static/media/insomnia_disorder_img.047cdc0b2d300befaec0.jpg",
-    "static/media/restless_leg_disorder_img.jpg": "/my-project-8/static/media/restless_leg_disorder_img.9785ab3e454835e1a527.jpg",
-    "static/media/sample_chart_img.png": "/my-project-8/static/media/sample_chart_img.5996bb18f6a2c63a1d41.png",
-    "static/media/rem_disorder_img.jpg": "/my-project-8/static/media/rem_disorder_img.2f18041b4bd1a1f90bcb.jpg",
-    "static/media/hourglass_img.svg": "/my-project-8/static/media/hourglass_img.98d4f5bf73f99d0f64e8871c6e0750cf.svg",
-    "static/media/beer_img.svg": "/my-project-8/static/media/beer_img.ade9bce7f6dde78daac40e07295edaf0.svg",
-    "index.html": "/my-project-8/index.html",
-    "main.66cfb783.css.map": "/my-project-8/static/css/main.66cfb783.css.map",
-    "main.cd67f2db.js.map": "/my-project-8/static/js/main.cd67f2db.js.map"
+    "main.css": "/project-part-8/static/css/main.66cfb783.css",
+    "main.js": "/project-part-8/static/js/main.73204ed9.js",
+    "static/media/programmer_team_img.jpg": "/project-part-8/static/media/programmer_team_img.5de22e826ae0185852e7.jpg",
+    "static/media/idiopathic_hypersomnia.jpeg": "/project-part-8/static/media/idiopathic_hypersomnia.9a4d176681cf46badeb9.jpeg",
+    "static/media/doctor_team_img.jpeg": "/project-part-8/static/media/doctor_team_img.20283584aaf790a601fa.jpeg",
+    "static/media/narcolepsy_disorder_img.jpg": "/project-part-8/static/media/narcolepsy_disorder_img.a1f1fbec0090f9a5a8e0.jpg",
+    "static/media/shift_work_disorder_img.jpg": "/project-part-8/static/media/shift_work_disorder_img.955d6f8ed054602ecdd3.jpg",
+    "static/media/delayed_sleep_disorder_img.jpg": "/project-part-8/static/media/delayed_sleep_disorder_img.840a1642cc9c3de0759c.jpg",
+    "static/media/nurse_team_img.jpg": "/project-part-8/static/media/nurse_team_img.26a29a82b6af1eaf0b26.jpg",
+    "static/media/sleep_apnea_disorder_img.jpg": "/project-part-8/static/media/sleep_apnea_disorder_img.b9a48ec1d733162913a8.jpg",
+    "static/media/our_mission_img.jpg": "/project-part-8/static/media/our_mission_img.592d35e66c84488869bd.jpg",
+    "static/media/insomnia_disorder_img.jpg": "/project-part-8/static/media/insomnia_disorder_img.047cdc0b2d300befaec0.jpg",
+    "static/media/restless_leg_disorder_img.jpg": "/project-part-8/static/media/restless_leg_disorder_img.9785ab3e454835e1a527.jpg",
+    "static/media/sample_chart_img.png": "/project-part-8/static/media/sample_chart_img.5996bb18f6a2c63a1d41.png",
+    "static/media/rem_disorder_img.jpg": "/project-part-8/static/media/rem_disorder_img.2f18041b4bd1a1f90bcb.jpg",
+    "static/media/hourglass_img.svg": "/project-part-8/static/media/hourglass_img.98d4f5bf73f99d0f64e8871c6e0750cf.svg",
+    "static/media/beer_img.svg": "/project-part-8/static/media/beer_img.ade9bce7f6dde78daac40e07295edaf0.svg",
+    "index.html": "/project-part-8/index.html",
+    "main.66cfb783.css.map": "/project-part-8/static/css/main.66cfb783.css.map",
+    "main.73204ed9.js.map": "/project-part-8/static/js/main.73204ed9.js.map"
   },
   "entrypoints": [
     "static/css/main.66cfb783.css",
-    "static/js/main.cd67f2db.js"
+    "static/js/main.73204ed9.js"
   ]
 }
