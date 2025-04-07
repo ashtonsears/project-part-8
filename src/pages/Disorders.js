@@ -1,13 +1,6 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Grid from '../components/Grid.js';
-import sleepapnea from '../images/sleep_apnea_disorder_img.jpg';
-import insomnia from '../images/insomnia_disorder_img.jpg';
-import narcolepsy from '../images/narcolepsy_disorder_img.jpg';
-import restlesslegs from '../images/restless_leg_disorder_img.jpg';
-import shiftwork from '../images/shift_work_disorder_img.jpg';
-import delayedsleep from '../images/delayed_sleep_disorder_img.jpg';
-import remdisorder from '../images/rem_disorder_img.jpg';
-import idiopathichypersomnia from '../images/idiopathic_hypersomnia.jpeg';
-import parasomnia from '../images/parasomnias_disorder_img.jpg';
 import '../styles/disorders.css';
 
 const Disorders = () => {
@@ -23,6 +16,12 @@ const Disorders = () => {
         })();
     }, []);
 
+    useEffect(() => {
+        window.closeModal = () => {
+          document.getElementById("modal").style.display = "none";
+        };
+    }, []);
+
     return (
         <main>
             <h2>Sleep-Wake Disorders</h2>
@@ -31,31 +30,32 @@ const Disorders = () => {
                 There are over 80 different sleep-wake disorders, but the most common are the ones listed below.
                 Click on a disorder to find out more about it.</p>
             <div id="grid" className="grid">
-                {disorders.map((disorder) => {
-                    <Grid
-                        key={disorder.id}
-                        name={disorder.name}
-                        onClick={() => {
-                            const modal = document.getElementById("modal");
-                            const modalContent = document.getElementById("modal_content");
-                            modalContent.innerHTML = `
-                                <span className="close" onclick="closeModal()">&times;</span>
-                                <h2 className="modal_center">${disorder.name}</h2>
-                                <div className="modal_img"><img src="${disorder.image}" alt="${disorder.name}"></div>
-                                <p className="modal_center">${disorder.description}</p>
-                                <h3>Symptoms</h3>
-                                <ul>${disorder.symptoms.map((symptom) => `<li>${symptom}</li>`).join("")}</ul>
-                                <h3>Diagnostic Tests</h3>
-                                <ul>${disorder.diagnostic_tests.map((test) => `<li>${test}</li>`).join("")}</ul>
-                                <h3>Prevalence</h3>
-                                <p className="modal_center">${disorder.prevalence}</p>
-                                <h3>Treatments</h3>
-                                <ul>${disorder.treatment.map((treatment) => `<li>${treatment}</li>`).join("")}</ul>
-                            `;
-                            modal.style.display = "block";
-                        }}
-                    />
-                })};
+            {disorders.map((disorder) => (
+                <Grid
+                key={disorder._id}
+                disorder={disorder}
+                onClick={() => {
+                    const imageSrc = `https://sleep-tracker-server.onrender.com/${disorder.image}`;
+                    const modal = document.getElementById("modal");
+                    const modalContent = document.getElementById("modal_content");
+                    modalContent.innerHTML = `
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h2 class="modal_center">${disorder.name}</h2>
+                    <div class="modal_img"><img src="${imageSrc}" alt="${disorder.name}"></div>
+                    <p class="modal_center">${disorder.description}</p>
+            <h3>Symptoms</h3>
+            <ul>${disorder.symptoms.map((symptom) => `<li>${symptom}</li>`).join("")}</ul>
+            <h3>Diagnostic Tests</h3>
+            <ul>${disorder.diagnostic_tests.map((test) => `<li>${test}</li>`).join("")}</ul>
+            <h3>Prevalence</h3>
+            <p class="modal_center">${disorder.prevalence}</p>
+            <h3>Treatments</h3>
+            <ul>${disorder.treatment.map((treatment) => `<li>${treatment}</li>`).join("")}</ul>
+        `;
+        modal.style.display = "block";
+    }}
+/>
+    ))}
             </div>
             <div id="modal" className="modal">
                 <div className="modal_content" id="modal_content"></div>

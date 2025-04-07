@@ -8,6 +8,21 @@
     max-width: 1110px;
   }
 
+  /* Form */
+#symptom_form{
+  background-color: #B3CDE0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#symptom_text{
+  padding: 10px;
+}
+
+.slide_container{
+  width: 70%;
+}
+
   /* Slideshow */
 .slideshow{
     text-align: center;

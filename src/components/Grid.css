@@ -1,7 +1,6 @@
 /* Grid */
 .grid div{
   padding: 10px;
-  border: 10px solid #ECEEEB;
   text-align: center;
   position: relative;
 }
@@ -14,7 +13,7 @@
     cursor: pointer;
   }
 
-  .grid_img h4{
+  .grid h4{
     font-size: 18px;
     color: #ECEEEB;
     background-color: #6497B1;

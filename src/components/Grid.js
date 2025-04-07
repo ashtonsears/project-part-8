@@ -1,14 +1,15 @@
 import './Grid.css';
 
-const Grid = (disorder) => {
-  const imageSrc = 'https://sleep-tracker-server.onrender.com/${disorders.image}/';
+const Grid = ({ disorder, onClick }) => {
+  const imageSrc = `https://sleep-tracker-server.onrender.com/${disorder.image}`;
+
   return (
-    <div className="grid">
-      <section className="disorder">
-        <h4>{disorder.name}</h4>
-        <img className="grid_img" src={imageSrc} alt={disorder.name}/>
-      </section>
-    </div>
+    <section className="disorder" onClick={onClick}>
+      <h4>{disorder.name}</h4>
+      <div className="grid_img">
+        <img src={imageSrc} alt={disorder.name} />
+      </div>
+    </section>
   );
 };
 
