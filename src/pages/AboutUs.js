@@ -3,6 +3,7 @@ import team from '../images/our_mission_img.jpg';
 import nurse from '../images/nurse_team_img.jpg';
 import programmer from '../images/programmer_team_img.jpg';
 import doctor from '../images/doctor_team_img.jpeg';
+import '../styles/about_us.css';
 
 const AboutUs = () => {
     return (

@@ -1,12 +1,15 @@
 import './Grid.css';
 
-function Grid(grid) {
+const Grid = (disorder) => {
+  const imageSrc = 'https://sleep-tracker-server.onrender.com/${disorders.image}/';
   return (
-    <div className="grid_img">
-        <img src={grid.image} alt={grid.name}/>
-        <h4>{grid.name}</h4>
+    <div className="grid">
+      <section className="disorder">
+        <h4>{disorder.name}</h4>
+        <img className="grid_img" src={imageSrc} alt={disorder.name}/>
+      </section>
     </div>
   );
-}
+};
 
 export default Grid;
