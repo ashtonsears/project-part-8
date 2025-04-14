@@ -27,7 +27,7 @@ const SleepTracker = () => {
             These symptoms can impair daily functioning and can worsen both mental and physical health. 
         </p>
         <p>If you notice pattern of sleep-wake disorder symptoms, schedule a visit with your primary care provider.
-            They will be able to refer you to a sleep clinician, who can order several diagnostic tests like a polysomnography, an electroencephalogram, or a multiple sleep latency test.
+            They will be able to refer you to a sleep medicine physician, who can order several diagnostic tests like a polysomnography, an electroencephalogram, or a multiple sleep latency test.
             These tests will help determine the cause of your symptoms and the best course of treatment.
         </p>
         <h2 id="symptom_title">Add a Sleep Symptom...</h2>
