@@ -15,7 +15,7 @@ const SymptomForm = (props) => {
       let [hours, minutes] = time.split(":");
       let period = "AM";
 
-      if parseInt(hours) >= 12) {
+      if (parseInt(hours) >= 12) {
         period = "PM";
         if (parseInt(hours) > 12) {
           hours -= 12;
